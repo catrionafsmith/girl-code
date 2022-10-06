@@ -25,9 +25,16 @@ a {
     padding-right: 16px;
    
 }
+
+.logogirl {
+    background-color: white;
+    border-radius: 5px;
+}
+
 .left-links {
     font-size: 24px;
     color: #F9FAF8;
+    align-items: center;
 }
 
 .site-info {
@@ -38,6 +45,10 @@ a {
     background-color: #1F2937;
     gap: 20px;
 
+}
+.site-photo {
+    background-color: white;
+    border-radius: 5px;
 }
 
 h1 {
@@ -60,8 +71,10 @@ h3 {
 .sign-button {
     background-color: #3882F6;
     border-radius: 8px;
-    width: 100px;
-    height: 30px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    padding: 5px;
     color: #E5E7EB;
     border: none;
 }
@@ -101,6 +114,7 @@ h3 {
     font-size: 25px;
     font-weight: 900;
     font-style: normal;
+    padding: 10px;
 }
 
 .call_action {
@@ -122,6 +136,19 @@ p {
     margin: 0;
 }
 
+.button-a {
+    flex: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    gap: 50px;
+    width: 400px;
+
+
+}
+
+
 .subtitle {
     color: #F9FAF8;
     font-weight: 900;
@@ -139,7 +166,7 @@ p {
 
 .signuptwobutton {
     min-width: 150px;
-    height: 40px;
+    height: auto;
     font-size: 18px;
     align-items: center;
     border-radius: 5px;
